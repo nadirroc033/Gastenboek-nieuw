@@ -1,0 +1,22 @@
+{
+    "berichten": [
+        {
+            "naam": "Nadir",
+            "datum": "22-03-2024 11:20",
+            "bericht": "Dit is een test",
+            "afbeelding": "JoeyAK-Blijf-Soldaat.jpeg"
+        },
+        {
+            "naam": "Nadir",
+            "datum": "22-03-2024 11:21",
+            "bericht": "Dit is een test",
+            "afbeelding": "JoeyAK-Blijf-Soldaat.jpeg"
+        },
+        {
+            "naam": "Nadir",
+            "datum": "22-03-2024 11:23",
+            "bericht": "Dit is een test",
+            "afbeelding": "JoeyAK-Blijf-Soldaat.jpeg"
+        }
+    ]
+}

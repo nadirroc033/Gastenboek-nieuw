@@ -1,0 +1,108 @@
+/* Basisstijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #44c767;
+    /* Donkergroene achtergrondkleur */
+    background-image: url('wave.svg');
+    /* Achtergrondafbeelding met golvend effect */
+    background-position: center bottom;
+    /* Plaatsing van de achtergrondafbeelding */
+    background-repeat: repeat-x;
+    /* Herhaal de achtergrondafbeelding horizontaal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Halfdoorzichtige witte achtergrond voor container */
+    border-radius: 10px;
+    /* Afgeronde hoeken voor de container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Zachte schaduw voor de container */
+    text-align: center;
+    /* Center alle inhoud in de container */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.bericht {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bericht img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsieve stijlen */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Stijl voor de button */
+.terug-button {
+    display: block;
+    margin: 20px auto;
+    /* Zet de button in het midden horizontaal en voeg wat ruimte toe boven en onder */
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    /* Donkerblauwe achtergrondkleur */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terug-button:hover {
+    background-color: #45a049;
+    /* Donkerder groene kleur bij hover */
+}
