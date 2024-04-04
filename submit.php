@@ -3,6 +3,8 @@
 $jsonData = file_get_contents('gastenboek.json');
 $data = json_decode($jsonData, true);
 
+
+
 // Voeg het nieuwe bericht toe aan de array
 $data['berichten'][] = array(
     'naam' => $_POST['naam'],
